@@ -1,0 +1,614 @@
+@font-face {
+    font-family: 'as_grammatika-light';
+    src: url('as_grammatika-light-webfont.woff2') format('woff2'),
+         url('as_grammatika-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.navContainer {
+    margin: 0 auto;
+    width: 80%;
+    color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navLogo img {
+    display:inline-block;
+    width: 70px;
+    margin-top: 20px;
+}
+
+.links ul li {
+    display:inline-block;
+
+    list-style-type: none;
+    margin-left:20px;
+    padding-top: 20px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    font-size: 0.92em;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/* DOES NOT WORK
+.links ul li a.active {
+    text-decoration: underline;
+}  */
+
+.topPage {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    max-height: 1000px;
+    background-size: cover;
+    display: flex;
+}
+.topPage .carousel {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    max-height: 1000px;
+    display: flex;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100vh;
+    max-height: 1000px;
+    display: flex;
+    background-size: cover;
+}
+
+.contentContainer * {
+    color: #fff;
+    text-align: left;
+}
+.owl-carousel .item {
+    height: 100vh;
+    max-height: 1000px;
+    background-size: cover;
+    display: flex;
+}
+.caseCarouselSection .item {
+    height: 300px;
+}
+.contentContainer {
+    align-self: center;
+    margin-left: 10%;
+}
+.contentContainer h1 {
+    text-transform: uppercase;
+    /* font-family: 'Alegreya Sans', sans-serif; */
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 4em;
+    font-weight: light;
+    margin-bottom: 20px;
+}
+
+.contentContainer h6 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.95em;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 150%;
+    margin-top: 0;
+}
+
+.aboutPage {
+    background-image: url(../img/bg-about.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex;
+}
+
+.containerPageTwo {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.containerPageTwo h3 {
+    /* font-family: 'Raleway', sans-serif; */
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.containerPageTwo p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    line-height: 125%;
+    margin-top: 30px;
+    text-align: left;
+    font-weight: 100;
+}
+
+.videoPage {
+    height: 600px;
+}
+
+.servicePage {
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    display: inline-block;
+}
+
+.contianerPageThree {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blockContent {
+    width: 30%;
+    font-family: 'Raleway', sans-serif;
+    line-height: 125%;
+    font-size: 18px;
+}
+
+.boldUnderline {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: underline;
+    margin-right: 5px;
+}
+
+.containerDNA {
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 60%;
+}
+
+.containerDNA p {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: light;
+    font-style: italic;
+    letter-spacing: 2px;
+    line-height: 160%;
+}
+
+
+.foot {
+    display: flex;
+    background-color: #333;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+}
+
+.foot * {
+    color: #fff;
+}
+
+.containerFoot {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.footLogo img {
+    width: 60px;
+}
+
+.copyRight {
+    margin: 20px auto;
+}
+
+.copyRight * {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+
+.contactLink i {
+    font-size: 26px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contactTopPage {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    display: flex;
+    text-align: center;
+}
+
+.contactContainer h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.contactContainer {
+    margin: 35vh auto;
+}
+
+.contactTextContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.contactText {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.contactText h6 {
+    font-weight: 300;
+    font-size: 23px;
+}
+.contactText h5 {
+    font-size: 25px;
+}
+.contactPageLink i {
+    color: #fff;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    transition: .2s;
+}
+.contactPageLink i:hover {
+    color: #999;
+}
+.contactPageLink a:hover {
+    text-decoration: none;
+}
+.inverseNav .links ul li a {
+    color: #000;
+}
+
+.workBackground {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-image: url(../img/bg-watermarks.png);
+    background-repeat: repeat-y;
+}
+
+.workContainer {
+    width: 80%;
+    margin: 150px auto;
+}
+
+.workVertialNav {
+    width: 20%;
+}
+ 
+.workVertialNav ul {
+    padding: 0;
+}
+
+.workVertialNav *{
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    color: #7c7c7c;
+    font-size: 14px;
+    line-height: 250%;
+}
+
+.workVertialNav *:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+/* DOES NOT WORK
+.workVertialNavu ul li a:active {
+    color: #000;
+} */
+
+.campaignsContainer {
+    width: 100%;
+    margin: 20px auto;
+}
+.campaignsContainer .row {
+    display: flex;
+    justify-content: start;
+}
+.campaignsContainer .col-md-4 {
+    display: flex;
+    justify-content: center;
+}
+.columnCampaigns {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.columnCampaigns a {
+    border: 1px solid transparent;
+    transition: .2s;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+.columnCampaigns a:hover {
+    border: 1px solid #999;
+}
+.columnCampaigns img{
+    margin-bottom: 20px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+
+/* <!-- case page --> */
+
+.caseOverlay {
+    position: absolute; 
+    width: 100%; 
+    height: 45vh; 
+    min-height: 500px;
+    top: 0; 
+    left: 0;
+    background-color: rgba(0,0,0,0.6); 
+    z-index: 1;
+}
+.caseSection {
+    height: 45vh;
+    width: 100%;
+    min-height: 500px;
+}
+.caseBannerContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.caseBanner{
+    width: 100%;
+    height: 45vh;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size:2000px 100%;
+    background-position-x: -300px;
+    display: flex;
+}
+
+.caseBannerContainer {
+    align-self: center;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 15vh;
+    justify-content:space-between;
+    z-index: 3;
+}
+
+.casePortrait {
+    width: 30%;
+}
+.casePortrait img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #fff;
+}
+.caseTitle {
+    width: 70%;
+}
+
+.caseTitle h2 {
+    color: #fff;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.caseTitle h4 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 26px;
+    line-height: 1.5;
+}
+
+.caseCarousel {
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+}
+
+.caseCarouselContent {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.caseCaroText {
+    width: 40%;
+}
+
+.caseCaroText * {
+    color: #666666;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.caseCarouselSection {
+    width: 50%;
+}
+
+#carouselIndicators .carousel-inner {
+    height: 400px;
+} 
+
+.carouselExampleIndicators {
+    height: 50vh;
+}
+
+
+.casePortfolio {
+    width: 100%;
+    background-color: rgba(78, 38, 85, 0.1);
+    margin: 0;
+    display: block;
+    padding: 60px 0;
+}
+
+.casePortfolioContent {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.casePortTitle h2{
+    text-align: center;
+    color: #390e45;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    transition: .2s;
+}
+.casePortTitle a:hover h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+}
+.casePortTitle a:hover {
+    text-decoration: none;
+}
+
+.casePortImgContainer {
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+.imgContainerItem {
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+}
+.casePortImg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    transition: .2s;
+}
+
+
+.caseImgOverlay {
+    background-color: rgba(78, 78, 78, 0.6);
+    position: absolute; 
+    z-index: 2;
+    width: 100%;
+    height: 300px;
+    transition: .2s;
+}
+
+.caseImgOverlay:hover {
+    opacity: 0;
+}
+
+.imgContainerItem:hover .casePortImg {
+    transform: scale(1.1);
+}
+
+.workContainer .imgContainerItem {
+    width: 350px;
+    height: 350px;
+    margin: 10px 0;
+}
+.workContainer .imgContainerItem .caseImgOverlay {
+    width: 100%;
+    height: 100%;
+}
+.workContainer .imgContainerItem .casePortImg img {
+    width: 100%;
+    height: 100%;
+}
+.serviceContainer {
+    width: 100%;
+    display: flex;
+}
+.serviceContainer .serviceBlock {
+    width: 70%;
+    background-image: url(../img/s2.jpg);
+    background-size: contain;
+    min-height: 200px;
+}
+.serviceContainer .serviceDesc {
+    width: 30%;
+}
+.serviceContainer .serviceArea {
+    border: 1px solid #fff;
+    padding: 40px 15px;
+    color: #fff;
+}
+.serviceArea h3 {
+    font-weight: 100;
+    font-size: 12px;
+    margin: 10px 0 0 0;
+}
+@media only screen and (max-width: 425px) {
+    .caseOverlay, .caseBanner, .caseSection {
+        min-height: 500px;
+        height: 25vh; 
+    }
+    .caseBannerContainer {
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .workContainer .imgContainerItem {
+        width: 320px;
+        height: 320px;
+        margin: 10px 0;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .workContainer .imgContainerItem {
+        width: 260px;
+        height: 260px;
+        margin: 10px 0;
+    }
+}
+
