@@ -30,43 +30,7 @@
             </div>
         </div>
     </div>
-    <!-- <div id="carouselSlide" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
- 
-            <div class="carousel-item" style="background-image:url(./img/s1.jpg)">
-                
-            </div>
-
-            <div class="carousel-item" style="background-image:url(./img/s2.jpg)">
-                <div class="contentContainer">
-                    <h1>In Visible</h1>
-                    <h6 class="fontsforweb_ufontscomfuturabook">Deeply immersed in what's "IN", <br>we thrive to make your brand "VISIBLE".</h6>
-                </div>
-            </div>
-            <div class="carousel-item" style="background-image:url(./img/s3.jpg)">
-                <div class="contentContainer">
-                    <h1>In Visible</h1>
-                    <h6 class="fontsforweb_ufontscomfuturabook">Deeply immersed in what's "IN", <br>we thrive to make your brand "VISIBLE".</h6>
-                </div>
-            </div>
-
-            <div class="carousel-item" style="background-image:url(./img/s4.jpg)">
-                <div class="contentContainer">
-                    <h1>In Visible</h1>
-                    <h6 class="fontsforweb_ufontscomfuturabook">Deeply immersed in what's "IN", <br>we thrive to make your brand "VISIBLE".</h6>
-                </div>
-            </div>
-        </div>
-    </div> -->
 </div>
-
-<!-- <div class="topPage">
-   <div class="contentContainer">
-        <h1>In Visible</h1>
-        <h6 class="fontsforweb_ufontscomfuturabook">Deeply immersed in what's "IN", <br>we thrive to make your brand "VISIBLE".</h6>
-   </div>
-</div> -->
-
 
 <section class="aboutPage">
     <div class="containerPageTwo">
@@ -84,7 +48,7 @@
 <section class="aboutPage" id="service">
     <div class="containerPageTwo">
         <h3>Our Services</h3>
-        <div class="serviceContainer">
+        <!-- <div class="serviceContainer">
             <div class="serviceBlock row">
                 <div class="serviceArea col-md-3">
                     <i class="fa fa-bullhorn"></i>
@@ -121,6 +85,61 @@
             </div>
             <div class="serviceDesc">
                 <h2>Our Services</h2>
+            </div>
+        </div> -->
+        <div class="serviceContainer">
+            <div class="serviceRow">
+                <div class="serviceCard">
+                    <img src="./img/brand.svg" alt="">
+                    <h1>Brand Communication</h1>
+                    <div class="divider"></div>
+                    <p>Identity development & Positioning, Media Strategy & Consulting</p>
+                </div>
+                <div class="serviceCard">
+                    <img src="./img/event.svg" alt="">
+                    <h1>Events</h1>
+                    <div class="divider"></div>
+                    <p>Full-Scale Production, Look & Feel Design, Strategic guest curation, Promotion</p>
+                </div>
+                <div class="serviceCard">
+                    <img src="./img/experience.svg" alt="">
+                    <h1>Experiential</h1>
+                    <div class="divider"></div>
+                    <p>Creative Marketing, Stunts, both Guerilla & Digital Initiatives</p>
+                </div>
+                <div class="serviceCard">
+                    <img src="./img/marketing.svg" alt="">
+                    <h1>Cross-Promotional Campaign</h1>
+                    <div class="divider"></div>
+                    <p>Partnership strategy, Outreach, & Strategic Alliance Execution</p>
+                </div>
+            </div>
+            <div class="serviceRow">
+                <div class="serviceCard">
+                    <img src="./img/influence.svg" alt="">
+                    <h1>Influence Marketing</h1>
+                    <div class="divider"></div>
+                    <p>Influencer Collaborations, Blogger Campaigns, Community Amplification</p>
+                </div>
+                <div class="serviceCard">
+                    <img src="./img/opportunity.svg" alt="">
+                    <h1>Visibility Opportunities</h1>
+                    <div class="divider"></div>
+                    <p>Coordination of speaking opportunities, trade show & conference involvement</p>
+                </div>
+                <div class="serviceCard">
+                    <img src="./img/content.svg" alt="">
+                    <h1>Content Creation</h1>
+                    <div class="divider"></div>
+                    <p>Digital / Commercial / Social</p>
+                </div>
+                <div class="serviceCard">
+                    <img src="./img/star.svg" alt="">
+                    <h1>Celebrity Wrangling</h1>
+                    <div class="divider"></div>
+                    <p>Full-Scale Production, Look & Feel Design, Strategic guest curation, Promotion</p>
+                </div>
+            </div>
             </div>
         </div>
     </div>

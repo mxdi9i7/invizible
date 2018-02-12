@@ -113,8 +113,8 @@ nav {
     background-image: url(../img/bg-about.png);
     background-size:cover;
     background-repeat: no-repeat;
-    height: 60vh;
     display: flex;
+    padding: 60px 0;
 }
 
 .containerPageTwo {
@@ -131,9 +131,9 @@ nav {
 
 .containerPageTwo p {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.2em;
+    font-size: 18px;
     letter-spacing: 1px;
-    line-height: 125%;
+    line-height: 200%;
     margin-top: 30px;
     text-align: left;
     font-weight: 100;
@@ -147,7 +147,7 @@ nav {
     background-image: url(../img/2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 120vh;
+    min-height: 800px;
     display: inline-block;
 }
 
@@ -162,14 +162,14 @@ nav {
     width: 30%;
     font-family: 'Raleway', sans-serif;
     line-height: 125%;
-    font-size: 18px;
+    font-size: 16px;
 }
-
+.blockContent p {
+    line-height: 150%;
+}
 .boldUnderline {
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
     font-weight: 800;
-    text-decoration: underline;
     margin-right: 5px;
 }
 
@@ -372,7 +372,7 @@ nav {
     position: absolute; 
     width: 100%; 
     height: 45vh; 
-    min-height: 500px;
+    max-height: 500px;
     top: 0; 
     left: 0;
     background-color: rgba(0,0,0,0.6); 
@@ -381,17 +381,17 @@ nav {
 .caseSection {
     height: 45vh;
     width: 100%;
-    min-height: 500px;
 }
 .caseBannerContainer {
     width: 80%;
     margin: 0 auto;
+    max-height: 500px;
 }
 
 .caseBanner{
     width: 100%;
     height: 45vh;
-    min-height: 500px;
+    max-height: 500px;
     background-repeat: no-repeat;
     background-size:2000px 100%;
     background-position-x: -300px;
@@ -470,7 +470,7 @@ nav {
 }
 
 .caseCarouselSection {
-    width: 50%;
+    width: 400px;
 }
 
 #carouselIndicators .carousel-inner {
@@ -563,6 +563,11 @@ nav {
     width: 100%;
     height: 100%;
 }
+#service h3 {
+    margin-bottom: 60px;
+    color: #333;
+}
+/* 
 .serviceContainer {
     width: 100%;
     display: flex;
@@ -585,6 +590,60 @@ nav {
     font-weight: 100;
     font-size: 12px;
     margin: 10px 0 0 0;
+} */
+.serviceContainer {
+    width: 100%;
+}
+#service {
+    /* background-image: url('../img/service.jpg'); */
+    background-image: none;
+    background-color: #fcfcfc;
+}
+.serviceRow {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.serviceCard {
+    padding: 15px 30px; 
+    box-shadow: 1px 5px 10px -6px rgba(0, 0, 0, 0.4);
+    background-color: #fff;
+    margin: 0 15px;
+    transition: .2s;
+    width: 23%;
+}
+.serviceCard:hover {
+    cursor: pointer;
+    background-color: #ededed;
+}
+.serviceCard h1 {
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+    font-size: 17.5px;
+    font-family: 'ufontscomfuturabook' !important;
+    margin: 0;
+}
+.serviceCard p {
+    color: rgb(85, 85, 85);
+    font-size:  14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 125%;
+    font-family: 'ufontscomfuturabook' !important;
+    text-overflow: ellipsis;
+}
+.serviceCard .divider {
+    height: 1px;
+    width: 80px;
+    background-color: #333;
+    margin: 15px auto;
+}
+.serviceCard img {
+    height: 50px;
+    display: block;
+    margin: 15px auto;
 }
 @media only screen and (max-width: 425px) {
     .caseOverlay, .caseBanner, .caseSection {
