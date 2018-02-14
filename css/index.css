@@ -1,11 +1,15 @@
 @font-face {
     font-family: 'as_grammatika-light';
-    src: url('as_grammatika-light-webfont.woff2') format('woff2'),
-         url('as_grammatika-light-webfont.woff') format('woff');
+    src: url('./css/as_grammatika-light-webfont.woff2') format('woff2'),
+         url('./css/as_grammatika-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face {
+    font-family: 'futura';
+    src: url('./fonts/futura');
+}
+@import url('https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900');
 nav {
     width: 100%;
     position: absolute;
@@ -38,10 +42,10 @@ nav {
 
 .links ul li a {
     text-decoration: none;
-    font-size: 0.92em;
+    font-size: 12px;
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 100;
     letter-spacing: 2px;
 }
 
@@ -94,7 +98,7 @@ nav {
 .contentContainer h1 {
     text-transform: uppercase;
     /* font-family: 'Alegreya Sans', sans-serif; */
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-family: 'Catamaran', "Trebuchet MS", Arial, sans-serif;
     font-size: 4em;
     font-weight: light;
     margin-bottom: 20px;
@@ -124,13 +128,13 @@ nav {
 }
 
 .containerPageTwo h3 {
-    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Raleway', sans-serif;
     font-size: 1.7em;
     font-weight: bold;
 }
 
 .containerPageTwo p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Catamaran', sans-serif;
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 200%;
@@ -567,30 +571,6 @@ nav {
     margin-bottom: 60px;
     color: #333;
 }
-/* 
-.serviceContainer {
-    width: 100%;
-    display: flex;
-}
-.serviceContainer .serviceBlock {
-    width: 70%;
-    background-image: url(../img/s2.jpg);
-    background-size: contain;
-    min-height: 200px;
-}
-.serviceContainer .serviceDesc {
-    width: 30%;
-}
-.serviceContainer .serviceArea {
-    border: 1px solid #fff;
-    padding: 40px 15px;
-    color: #fff;
-}
-.serviceArea h3 {
-    font-weight: 100;
-    font-size: 12px;
-    margin: 10px 0 0 0;
-} */
 .serviceContainer {
     width: 100%;
 }
@@ -598,6 +578,7 @@ nav {
     background-image: url('../img/service2.jpg');
     /* background-image: none; */
     background-color: #fcfcfc;
+    padding-top: 0;
 }
 .serviceRow {
     display: flex;
@@ -622,7 +603,7 @@ nav {
     text-align: center;
     color: #333;
     font-size: 17.5px;
-    font-family: 'ufontscomfuturabook' !important;
+    font-family: 'Catamaran', sans-serif;
     margin: 0;
 }
 .serviceCard p {
@@ -632,7 +613,7 @@ nav {
     text-align: center;
     margin-top: 15px;
     line-height: 125%;
-    font-family: 'ufontscomfuturabook' !important;
+    /* font-family: 'futura' !important; */
     text-overflow: ellipsis;
 }
 .serviceCard .divider {
