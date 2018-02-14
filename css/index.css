@@ -595,8 +595,8 @@ nav {
     width: 100%;
 }
 #service {
-    /* background-image: url('../img/service.jpg'); */
-    background-image: none;
+    background-image: url('../img/service2.jpg');
+    /* background-image: none; */
     background-color: #fcfcfc;
 }
 .serviceRow {
@@ -606,11 +606,12 @@ nav {
 }
 .serviceCard {
     padding: 15px 30px; 
-    box-shadow: 1px 5px 10px -6px rgba(0, 0, 0, 0.4);
+    /* box-shadow: 1px 5px 10px -6px rgba(0, 0, 0, 0.4); */
     background-color: #fff;
     margin: 0 15px;
     transition: .2s;
     width: 23%;
+    border: 1px solid #eee;
 }
 .serviceCard:hover {
     cursor: pointer;
