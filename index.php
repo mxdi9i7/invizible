@@ -32,7 +32,7 @@
     </div>
 </div>
 
-<section class="aboutPage">
+<section class="aboutPage" id="about">
     <div class="containerPageTwo">
         <h3>About InVisible</h3>
         <p class="fontsforweb_ufontscomfuturabook">InVisible is a New York based creative agency specializing in the launch and expansion of new brands to (and from) the Chinese market. 

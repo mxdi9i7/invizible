@@ -6,7 +6,7 @@
         </div>
         <div class="links">
             <ul>
-                <li><a href="index.php">ABOUT</a></li>
+                <li><a href="index.php#about">ABOUT</a></li>
                 <li><a href="index.php#service">OUR SERVICES</a></li>
                 <li><a href="work.php">WORK</a></li>
                 <li><a href="contact.php">CONTACT</a></li>
