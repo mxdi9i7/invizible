@@ -635,6 +635,15 @@ nav {
     .caseBannerContainer {
         margin-top: 50px;
     }
+    .serviceCard h1 {
+        font-size: 9.5px;
+    }
+    .serviceCard p {
+        font-size:  6px;
+    }
+    .serviceCard img {
+        height: 15px;
+    }
 }
 @media only screen and (max-width: 1280px) {
     .workContainer .imgContainerItem {
@@ -651,5 +660,45 @@ nav {
         height: 260px;
         margin: 10px 0;
     }
+    .serviceContainer .serviceCard {
+        width: 45%;
+        padding: 8px 15px;
+    }
+    .serviceCard h1 {
+        font-size: 12.5px;
+    }
+    .serviceCard p {
+        font-size:  8px;
+    }
+    .serviceCard img {
+        height: 30px;
+    }
+    .caseCarouselSection .item {
+        height: 250px;
+    }
+    .caseCarouselSection {
+        width: 320px;
+    }
 }
 
+@media screen and (max-width: 768px) {
+    .serviceRow {
+        flex-direction: column;
+    }
+    .serviceRow .serviceCard {
+        width: 100%;
+        margin: 10px;
+    }
+    .caseCarouselContent {
+        flex-direction: column;
+    }
+    .caseCaroText {
+        width: 100%;
+    }
+    .caseCarouselSection .item {
+        height: auto;
+    }
+    .caseCarouselSection {
+        width: 100%;
+    }
+}

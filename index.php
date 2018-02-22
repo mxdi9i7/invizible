@@ -35,12 +35,9 @@
 <section class="aboutPage" id="about">
     <div class="containerPageTwo">
         <h3>About InVisible</h3>
-        <p class="fontsforweb_ufontscomfuturabook">InVisible is a New York based creative agency specializing in the launch and expansion of new brands to (and from) the Chinese market. 
-            Our team is comprised of bi-cultural creative minds and market experts comfortable and proficient in both Chinese and American culture.
+        <p class="fontsforweb_ufontscomfuturabook">InVisible is a New York based creative agency specializing in the launch and expansion of new brands to, and from, Chinese market. Our team is comprised of bi-cultural creative minds and market experts comfortable and proficient in both Chinese and American culture.
         </p>
-        <p class="fontsforweb_ufontscomfuturabook">We are deeply immersed in the Chinese music, art, fashion, and lifestyle scenes. On an everyday basis, 
-            we traverse the ever-evolving Chinese media landscape, and are communicating with the multicultural millennials of China, 24-7. 
-            We understand how they share information, what types of ideas inspire them, and why they choose one item over another. Due to our team's bi-cultural DNA and presence in New York and China, we understand you both at home and away.
+        <p class="fontsforweb_ufontscomfuturabook">We are deeply immersed in the music, art, fashion, and lifestyle scenes. On an everyday basis, we traverse the ever-evolving media landscape, and are communicating with the multicultural millennial, 24-7. We understand how they share information, what types of ideas inspire them, and why they choose one item over another. Due to our team's bi-cultural DNA and presence in New York and China, we understand you both at home and away.
         </p>
     </div>
 </section>
@@ -48,45 +45,6 @@
 <section class="aboutPage" id="service">
     <div class="containerPageTwo">
         <h3>Our Services</h3>
-        <!-- <div class="serviceContainer">
-            <div class="serviceBlock row">
-                <div class="serviceArea col-md-3">
-                    <i class="fa fa-bullhorn"></i>
-                    <h3>Brand Communication</h3>
-                </div>
-                <div class="serviceArea col-md-3">
-                    <i class="fa fa-calendar"></i>
-                    <h3>Events</h3>
-                </div>
-                <div class="serviceArea col-md-3">
-                    <i class="fa fa-calendar"></i>
-                    <h3>Experiential</h3>
-                </div>
-                <div class="serviceArea col-md-3">
-                    <i class="fa fa-calendar"></i>
-                    <h3>Cross-Promotional Campaigns</h3>
-                </div>
-                <div class="serviceArea col-md-3">
-                    <i class="fa fa-calendar"></i>
-                    <h3>Influence Marketing</h3>
-                </div>
-                <div class="serviceArea col-md-3">
-                    <i class="fa fa-calendar"></i>
-                    <h3>Visibility Opportunities</h3>
-                </div>
-                <div class="serviceArea col-md-3">
-                    <i class="fa fa-calendar"></i>
-                    <h3>Content Creation</h3>
-                </div>
-                <div class="serviceArea col-md-3">
-                    <i class="fa fa-calendar"></i>
-                    <h3>Celebrity Wrangling</h3>
-                </div>
-            </div>
-            <div class="serviceDesc">
-                <h2>Our Services</h2>
-            </div>
-        </div> -->
         <div class="serviceContainer">
             <div class="serviceRow">
                 <div class="serviceCard">
@@ -137,7 +95,7 @@
                     <img src="./img/star.svg" alt="">
                     <h1>Celebrity Wrangling</h1>
                     <div class="divider"></div>
-                    <p>Full-Scale Production, Look & Feel Design, Strategic guest curation, Promotion</p>
+                    <p>Connecting, celebrities from music, film and sports industry with companies. </p>
                 </div>
             </div>
             </div>
