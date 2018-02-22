@@ -6,7 +6,7 @@
     <div class="caseOverlay">
     </div>
 
-    <div class="caseBanner" style="background-image:url('../imgCase/vgrass_banner.jpg')"> 
+    <div class="caseBanner" style="background-image:url('../banner/vgrass.jpg')"> 
         <div class="caseBannerContainer">
             <div class="casePortrait">
                 <img src="../imgCase/vgrass_t.jpg" alt="">

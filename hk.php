@@ -7,7 +7,7 @@
     <div class="caseOverlay">
     </div>
 
-    <div class="caseBanner" style="background-image:url('../imgCase/hk_banner.jpg')"> 
+    <div class="caseBanner" style="background-image:url('../banner/hk.jpg')"> 
         <div class="caseBannerContainer">
             <div class="casePortrait">
                 <img src="../imgCase/hk_t.jpg" alt="">

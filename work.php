@@ -76,7 +76,7 @@
                     </div>  
                 </a>
             </div>
-            <div class="col-md-4 col-sm-6 col-lg-4">
+            <!-- <div class="col-md-4 col-sm-6 col-lg-4">
                 <a href="modernVice.php">
                     <div class="imgContainerItem">
                         <div class="caseImgOverlay">
@@ -86,7 +86,7 @@
                         </div>
                     </div>  
                 </a>
-            </div>
+            </div> -->
             <div class="col-md-4 col-sm-6 col-lg-4">
                 <a href="/lanyu.php">
                     <div class="imgContainerItem">
@@ -105,7 +105,7 @@
                         <div class="caseImgOverlay">
                         </div>
                         <div class="casePortImg">
-                            <img src="../imgCase/olababy_t.jpg" alt="">
+                            <img src="../imgCase/thumbnail-sq.png" alt="">
                         </div>
                     </div>  
                 </a>
