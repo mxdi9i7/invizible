@@ -23,10 +23,10 @@
         <!-- left part -->
         <div class="caseCaroText">
             <h6>
-            #Brand Strategy #Content Creation #Production #Social
+            Brand Strategy #Content Creation Production #Social
             <br>
-Hellen Keller is one of the largest Chinese Sunglass brand in China. They want to expand their market in young lonhas worked with Invisible to develop a cohesive campaign to boost brand’s international image among young consumers.  
-
+            Hellen Keller is one of the largest Chinese Sunglass brand in China. They want to expand their market in younger market. InVizible was recruited to develop a cohesive campaign to boost brand’s international image integrating international elements with their social media campaign. We executed as #summeraroundworld Campaign for the clients. We produced a series of video and imagery positioning the brand products in famous summer travel lifestyle in destinations, such as New York, Las Angeles, Paris etc. The campaign increased the brand’s premium and promoted its popularity among the millennial generation. The client has renewed the partnership with the InVizible to expand the campaign into a larger scale recently
+ 
             </h6>
             
         </div>

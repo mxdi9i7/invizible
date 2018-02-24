@@ -43,16 +43,19 @@
         <div class="caseCarouselSection">
             <div class="owl-carousel owl-theme case-carousel">
                 <div class="item">
-                    <img class="d-block w-100" src="../imgCase/lanyu1.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="../lanyu/1.jpg" alt="Second slide">
                 </div>
                 <div class="item">
-                    <img class="d-block w-100" src="../imgCase/lanyu2.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="../lanyu/2.jpg" alt="Second slide">
                 </div>
                 <div class="item">
-                    <img class="d-block w-100" src="../imgCase/lanyu3.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="../lanyu/3.jpg" alt="Second slide">
                 </div>
                 <div class="item">
-                    <img class="d-block w-100" src="../imgCase/lanyu4.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="../lanyu/4.jpg" alt="Second slide">
+                </div>
+                <div class="item">
+                    <img class="d-block w-100" src="../lanyu/5.jpg" alt="Second slide">
                 </div>
             </div>
         </div>

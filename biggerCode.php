@@ -25,9 +25,7 @@
         <!-- left part -->
         <div class="caseCaroText">
             <h6>
-            In celebration of the grand opening of BIGGERCODE, a fashion and lifestyle boutique located in SOHO, New York. 
-            Invizible developed a private celebration party at its new store and following media exposure on top fashion media including Vogue, 
-            Harper's Bazaar, ELLE, Cosmo, etc.
+            In celebration of the grand opening of BIGGERCODE, a fashion and lifestyle boutique located in SOHO, New York. Invizible planned a opening party at its new store and secured media exposure on top fashion media including Vogue, Harper's Bazaar, ELLE, Cosmo, etc
         </div>
     <!-- right part -->
         <div class="caseCarouselSection">

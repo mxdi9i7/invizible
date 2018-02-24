@@ -38,9 +38,9 @@
     </div> -->
     
     
-<section class="videoPage">
+<!-- <section class="videoPage">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/81ymFnvpfDc" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-</section>
+</section> -->
     <div class="campaignsContainer">
         <div class="row">
             <div class="col-md-4 col-sm-6 col-lg-4">
@@ -54,7 +54,7 @@
                     </div>  
                 </a>
             </div>
-            <div class="col-md-4 col-sm-6 col-lg-4">
+            <!-- <div class="col-md-4 col-sm-6 col-lg-4">
                 <a href="vgrass.php">
                     <div class="imgContainerItem">
                         <div class="caseImgOverlay">
@@ -64,7 +64,7 @@
                         </div>
                     </div>  
                 </a>
-            </div>
+            </div> -->
             <div class="col-md-4 col-sm-6 col-lg-4">
                 <a href="hk.php">
                     <div class="imgContainerItem">
@@ -76,7 +76,7 @@
                     </div>  
                 </a>
             </div>
-            <!-- <div class="col-md-4 col-sm-6 col-lg-4">
+            <div class="col-md-4 col-sm-6 col-lg-4">
                 <a href="modernVice.php">
                     <div class="imgContainerItem">
                         <div class="caseImgOverlay">
@@ -86,7 +86,7 @@
                         </div>
                     </div>  
                 </a>
-            </div> -->
+            </div>
             <div class="col-md-4 col-sm-6 col-lg-4">
                 <a href="/lanyu.php">
                     <div class="imgContainerItem">
