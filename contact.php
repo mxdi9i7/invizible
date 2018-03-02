@@ -27,7 +27,7 @@
             <a target="_blank" href="https://www.linkedin.com/company/inviziblepr/">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
-            <a target="_blank" href="https://www.linkedin.com/company/inviziblepr/">
+            <a target="_blank" href="https://www.facebook.com/InVisible-Agency-209997619744446/">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
             <a target="_blank" href="https://www.linkedin.com/company/inviziblepr/">
