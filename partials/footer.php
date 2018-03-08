@@ -16,8 +16,8 @@
             <a target="_blank" href="https://www.facebook.com/InVisible-Agency-209997619744446/">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
-            <a target="_blank" href="https://www.linkedin.com/company/inviziblepr/">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
+            <a target="_blank" href="https://m.weibo.cn/p/1005056348763358">
+                <i class="fa fa-weibo" aria-hidden="true"></i>
             </a>
             <a target="_blank" href="https://www.linkedin.com/company/inviziblepr/">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
