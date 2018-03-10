@@ -33,8 +33,8 @@
             <a target="_blank" href="https://m.weibo.cn/p/1005056348763358">
                 <i class="fa fa-weibo" aria-hidden="true"></i>
             </a>
-            <a target="_blank" href="https://www.linkedin.com/company/inviziblepr/">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
+            <a target="_blank" href="https://www.youtube.com/channel/UCdrRm0xwIDs5qQfc5wTZ2zA">
+                <i class="fa fa-youtube" aria-hidden="true"></i>
             </a>
         </div>
    </div>
