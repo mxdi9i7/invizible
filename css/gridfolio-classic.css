@@ -60,3 +60,8 @@
   background-image: url('../imgCase/biggercode_t.jpg');
   background-size: cover;
 }
+
+.xiaomi .gridfolio--block-content {
+  background-image: url('../imgCase/xiaomilogo.png');
+  background-size: cover;
+}
