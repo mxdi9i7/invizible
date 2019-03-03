@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>In Vizible</title>
+    <title>InVizible | New York Creative PR Agency</title>
     <meta charset="utf-8">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" />
